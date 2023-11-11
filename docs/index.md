@@ -1,10 +1,10 @@
-# So, you will be like them.
+# Getting Started
 
-???+ note "test"
-     
-    isdhgidghdi
-     
-    dhighdig
+本项目为 `Math-Wiki`，致力于收集各个难度、各个领域的数学知识和工具。本项目支持 PRs，对于提交的页面的难度下限至少应为**初中代数**。
+
+此外，我们并不希望这个网站成为收集教科书内的解题方法的网站，我们更希望此网站以收集知识和概念为主，而不仅仅是解题技巧。
 
 
-abcdefghijklmnopqrstuvwxyz
+此外，感谢 [OI-Wiki](https://oi-wiki.org) 给我们的启发。
+
+当然，这一是一个宏大的目标，仅靠作者自己的力量肯定无法完成，因此还希望大家给作者多多支持，谢谢！
