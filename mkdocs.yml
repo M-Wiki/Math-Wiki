@@ -3,6 +3,11 @@ down_extensions:
   - pymdownx.arithmatex:
       generic: true
 
+nav:
+  - Getting Started: index.html
+  - 数论:
+    - 数论基础: number-theory/basic.md 
+
 extra_javascript:
   - javascripts/katex.js 
   - https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.7/katex.min.js  
