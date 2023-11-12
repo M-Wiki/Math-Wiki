@@ -47,4 +47,4 @@ $$
 
 ## 费马小定理
 
-若 $p$ 为质数，则 $a^{p} \equiv a(\mod p)$ 即 $a^{p-1} \equiv 1(\mod p)$（但是当 $p|a$ 时不等价）。
+若 $p$ 为质数，则 $a^{p} \equiv a(\modp)$ 即 $a^{p-1} \equiv 1(\modp)$（但是当 $p|a$ 时不等价）。
