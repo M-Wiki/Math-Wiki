@@ -21,7 +21,7 @@ $$
 
 对于两个正整数 $a$ 和 $b$，存在一个最大的 $k$，使得 $k|a$ 且 $k|b$，那么记作 $\gcd(a,b)=k$。
 
-同理，如果存在一个最小的 $q$，使得 $a|q$ 且 $b|q$，那么记作 $\\operatorname{lcm}(a,b)=q$。
+同理，如果存在一个最小的 $q$，使得 $a|q$ 且 $b|q$，那么记作 $\operatorname{lcm}(a,b)=q$。
 
 
 ## 模运算
@@ -39,7 +39,7 @@ $$
 设 $a,m \in N^{+}$，且 $\gcd(a,m) = 1$，则公式有:
 
 $$
-a^{\varphi (m)} \equiv 1(\mod m)
+a^{\varphi (m)} \equiv 1(\bmod m)
 $$
 
 其中 $\varphi (m)$ 称为对模 $m$ 缩系的元素个数。
@@ -47,4 +47,4 @@ $$
 
 ## 费马小定理
 
-若 $p$ 为质数，则 $a^{p} \equiv a(\mod\,p)$ 即 $a^{p-1} \equiv 1(\mod\,p)$（但是当 $p|a$ 时不等价）。
+若 $p$ 为质数，则 $a^{p} \equiv a(\bmod p)$ 即 $a^{p-1} \equiv 1(\bmod p)$（但是当 $p|a$ 时不等价）。
