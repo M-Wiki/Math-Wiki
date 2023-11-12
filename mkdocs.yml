@@ -2,11 +2,17 @@ site_name: Math Wiki - Math Wiki
 down_extensions:
   - pymdownx.arithmatex:
       generic: true
-
+repo_name: M-Wiki/Math-Wiki 
+repo_url: 'https://github.com/M-Wiki/Math-Wiki'
 nav:
   - Getting Started: index.html
   - 数论:
     - 数论基础: number-theory/basic.md 
+
+plugins:
+  - git-authors
+  - search:
+      lang: zh
 
 extra_javascript:
   - javascripts/katex.js 
@@ -16,13 +22,25 @@ extra_javascript:
 extra_css:
   - https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.7/katex.min.css
 
+
 markdown_extensions:
   - admonition
   - pymdownx.details
   - pymdownx.superfences
 
+edit_uri: https://github.com/M-Wiki/Math-Wiki/edit/main/docs/ 
+
+
 theme:
+  features:
+    - content.action.edit
+    - search.suggest
+    - search.share
+  icon:
+    edit: material/pencil
+    repo: fontawesome/brands/git-alt 
   name: material
+  language: 'zh'
   custom_dir: overrides
   font:
     code: 'Fira Mono'
