@@ -34,4 +34,17 @@ $$
 - $(a-b)\bmod k = (a\bmod k - b\bmod k + k)\bmod k$。
 - $(ab)\bmod k = (a\bmod k)(b\bmod k)\bmod k$。
 
+## 欧拉定理
 
+设 $a,m \in N^{+}$，且 $\gcd(a,m) = 1$，则公式有:
+
+$$
+a^{\varphi (m)} \equiv 1(\mod m)
+$$
+
+其中 $\varphi (m)$ 称为对模 $m$ 缩系的元素个数。
+此外，$a$ 对模 $m$ 的阶 $\delta_m(a)$ 必整除 $\varphi (m)$。
+
+## 费马小定理
+
+若 $p$ 为质数，则 $a^{p} \equiv a(\mod p)$ 即 $a^{p-1} \equiv 1(\mod p)$（但是当 $p|a$ 时不等价）。
