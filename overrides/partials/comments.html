@@ -1,4 +1,23 @@
-  <script src="https://giscus.app/client.js"
+<br />
+
+<div style="color:green; margin-left: 20px;">
+本页面贡献者：
+<script>
+  var authors_list = document.querySelector("meta[name=author]").content;
+  authors_list = authors_list.split(",");
+  for (let i = 0; i < authors_list.length; i++) {
+    document.write(
+      '<a href="https://github.com/' + authors_list[i] + '">' + authors_list[i] + '</a>'
+    )
+    if (i != authors_list.length - 1) {
+      document.write(', ');
+    }
+  }
+</script>
+
+</div>
+
+<script src="https://giscus.app/client.js"
         data-repo="2044-space-elevator/Math-Wiki-Comment-System"
         data-repo-id="R_kgDOKsFAGg"
         data-category="Announcements"
