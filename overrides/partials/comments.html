@@ -1,21 +1,28 @@
-<br />
 
-<div style="color:green; margin-left: 20px;">
-本页面贡献者：
-<script>
-  var authors_list = document.querySelector("meta[name=author]").content;
-  authors_list = authors_list.split(",");
-  for (let i = 0; i < authors_list.length; i++) {
-    document.write(
-      '<a href="https://github.com/' + authors_list[i] + '">' + authors_list[i] + '</a>'
-    )
-    if (i != authors_list.length - 1) {
-      document.write(', ');
+<div style="margin-left: 20px;display:flex;">
+  <div style="/*! height:100%; */ width: 5px; background-color: skyblue; display: inline-block"></div>
+  <div style="margin-left: 10px;">
+  本页面贡献者：
+  <script>
+    var authors_list = document.querySelector("meta[name=author]").content;
+    authors_list = authors_list.split(",");
+    for (let i = 0; i < authors_list.length; i++) {
+      document.write(
+        '<a href="https://github.com/' + authors_list[i] + '">' + authors_list[i] + '</a>'
+      )
+      if (i != authors_list.length - 1) {
+        document.write(', ');
+      }
     }
-  }
-</script>
-
-</div>
+    var time = document.getElementsByClassName("md-source-file")[0];
+    var time2 = document.getElementsByClassName("git-revision-date-localized-plugin")[0];
+    time2 = time2.innerText;
+    time.innerHTML = "";
+    document.write("<br />最近更新时间：" + time2 + "<br />");
+    </script>
+    本页面的全部内容在 <strong><a href="https://creativecommons.org/licenses/by-sa/4.0/deed.zh"> CC BY-SA 4.0 </a></strong>和<strong><a href="https://github.com/zTrix/sata-license"> SATA </a></strong>协议之条款下提供，附加条款亦可能应用
+  </div>
+  </div>
 
 <script src="https://giscus.app/client.js"
         data-repo="2044-space-elevator/Math-Wiki-Comment-System"

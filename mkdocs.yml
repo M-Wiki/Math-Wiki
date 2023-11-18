@@ -1,4 +1,4 @@
-site_name: Math Wiki - Math Wiki 
+site_name: Math Wiki 
 down_extensions:
   - pymdownx.arithmatex:
       generic: true
@@ -10,7 +10,8 @@ nav:
     - 数论基础: number-theory/basic.md 
 
 plugins:
-  - git-authors
+  - git-revision-date-localized:
+      type: iso_datetime 
   - search:
       lang: zh
 
