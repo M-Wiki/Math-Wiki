@@ -1,23 +1,24 @@
-site_name: Math Wiki 
+site_name: Math Wiki
 down_extensions:
   - pymdownx.arithmatex:
       generic: true
-repo_name: M-Wiki/Math-Wiki 
+repo_name: M-Wiki/Math-Wiki
 repo_url: 'https://github.com/M-Wiki/Math-Wiki'
 nav:
   - Getting Started: index.html
   - 数论:
-    - 数论基础: number-theory/basic.md 
+    - 数论基础: number-theory/basic.md
+    - 'RSA 加密算法': number-theory/rsa.md
 
 plugins:
   - git-revision-date-localized:
-      type: iso_datetime 
+      type: iso_datetime
   - search:
       lang: zh
 
 extra_javascript:
-  - javascripts/katex.js 
-  - https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.7/katex.min.js  
+  - javascripts/katex.js
+  - https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.7/katex.min.js
   - https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.7/contrib/auto-render.min.js
 
 extra_css:
@@ -29,7 +30,7 @@ markdown_extensions:
   - pymdownx.details
   - pymdownx.superfences
 
-edit_uri: https://github.com/M-Wiki/Math-Wiki/edit/main/docs/ 
+edit_uri: https://github.com/M-Wiki/Math-Wiki/edit/main/docs/
 
 
 theme:
@@ -39,7 +40,7 @@ theme:
     - search.share
   icon:
     edit: material/pencil
-    repo: fontawesome/brands/git-alt 
+    repo: fontawesome/brands/git-alt
   name: material
   language: 'zh'
   custom_dir: overrides
