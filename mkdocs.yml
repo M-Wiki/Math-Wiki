@@ -11,6 +11,7 @@ nav:
     - 'RSA 加密算法': number-theory/rsa.md
   - 杂项:
     - 求和符号和连乘符号: others/sigma_prod.md
+    - '自然常数 e': others/natural_constant.md
 
 plugins:
   - git-revision-date-localized:
