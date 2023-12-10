@@ -5,7 +5,7 @@
 <script>
 	var btn = document.getElementById("btn-startedit");
 	var url = location.search;
-	var res = "https://github.com/Math-Wiki/Math-Wiki/edit/master/docs";
+	var res = "https://github.com/M-Wiki/Math-Wiki/edit/main/docs";
 	if (url.indexOf("?") != -1) {
 		var str = url.substr(1);
 		strs = str.split("=");
