@@ -5,7 +5,8 @@ down_extensions:
 repo_name: M-Wiki/Math-Wiki
 repo_url: 'https://github.com/M-Wiki/Math-Wiki'
 nav:
-  - Getting Started: index.html
+  - Getting Started: index.md
+  - 编辑指南: how_to_edit.md
   - 数论:
     - 数论基础: number-theory/basic.md
     - 'RSA 加密算法': number-theory/rsa.md
@@ -33,7 +34,7 @@ markdown_extensions:
   - pymdownx.details
   - pymdownx.superfences
 
-edit_uri: https://github.com/M-Wiki/Math-Wiki/edit/main/docs/
+edit_uri: 'https://m-wiki.github.io/Math-Wiki/how_to_edit/?ref='
 
 
 theme:
