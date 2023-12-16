@@ -10,6 +10,8 @@ nav:
   - 数论:
     - 数论基础: number-theory/basic.md
     - 'RSA 加密算法': number-theory/rsa.md
+  - 微积分:
+    - 微积分基础: calculus/index.md
   - 杂项:
     - 求和符号和连乘符号: others/sigma_prod.md
     - '自然常数 e': others/natural_constant.md
@@ -17,6 +19,8 @@ nav:
 plugins:
   - git-revision-date-localized:
       type: iso_datetime
+      # enable_creation_date: true
+      # fallback_to_build_date: true
   - search:
       lang: zh
 
