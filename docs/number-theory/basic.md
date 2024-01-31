@@ -40,7 +40,7 @@ $$
 设 $a,m \in N^{+}$，且 $\gcd(a,m) = 1$，则公式有:
 
 $$
-a^{\varphi (m)} \equiv 1(\bmod m)
+a^{\varphi (m)} \equiv 1(\pmod m)
 $$
 
 其中 $\varphi (m)$ 称为对模 $m$ 缩系的元素个数。
@@ -48,19 +48,21 @@ $$
 
 ## 费马小定理
 
-若 $p$ 为质数，则 $a^{p} \equiv a(\bmod p)$ 即 $a^{p-1} \equiv 1(\bmod p)$（但是当 $p|a$ 时不等价）。
+若 $p$ 为质数，则 $a^{p} \equiv a(\bmod p)$ 即 $a^{p-1} \equiv 1(\bmod p)$（但是当 $p\mid a$ 时不等价）。
 
 ## 孙子定理（中国剩余定理，CRT） 
  
-设整数 $m_{1},m_{2},m_{3},···,m_{n}$ 两两互质，令 $m=m_{1}m_{2}m_{3}···m_{n}$（$m_{i}$ 的连乘）。则对于任意的 $j$ 在 $(1,n)$ 中的整数，下列联立的同余式有解：
+设整数 $m_{1},m_{2},m_{3},···,m_{n}$ 两两互质，令 $m=m_{1}m_{2}m_{3}···m_{n}$（$m_{i}$ 的连乘）。则对于任意的 $j$ 在 $(1,n)$ 中的整数，下列联立的同余式有解（注意 $i \ne j$）：
  
 $$
-x_{j}=1\bmod m_j,
-x_{j}\equiv 0(\bmod m_{i}),i\neq j .
+\begin{cases}
+x_{j}\equiv 1 (\bmod m_j) \\
+x_{j}\equiv 0(\bmod m_{i})
+\end{cases}
 $$
 
-令 $x$ 为从 $1$ 到 $n$，$a_{j}x_{j}$ 的和，则 $x$ 适合下列联立同余式，
+令 $x$ 为从 $1$ 到 $n$，$a_{j}x_{j}$ 的和，则 $x$ 适合下列联立同余式（前提条件是满足 $j$ 属于 $(1, n$）：
 
 $$
-x\equiv a_{j}(\bmod m_{j}),j=1,2,3,···,n
+x\equiv a_{j}(\bmod m_{j})
 $$
