@@ -25,6 +25,31 @@ $$
 同理，如果存在一个最小的 $q$，使得 $a|q$ 且 $b|q$，那么记作 $\operatorname{lcm}(a,b)=q$。
 
 
+### 性质
+
+1. 如果 $a,b$ 互素，那么我们可以得到 $\gcd(a,b)=1$。
+2. 如果 $a_1,a_2,\ldots,a_n$ 互素，那么我们可以得到 $\gcd(a_1,a_2,\ldots,a_n)=1$。
+3. 对于任意 $a,b$ 有 $\operatorname{lcm}(a,b)=\dfrac{ab}{\gcd(a,b)}$，当 $a,b$ 互素时 $\operatorname{lcm}(a,b)=ab$。
+4. 根据辗转相除法有 $\gcd(a,b)=\gcd(b,a\bmod b)$。
+
+???+ note "证明"
+
+	以下片段摘自 [OI-Wiki](https://oi-wiki.org/math/number-theory/gcd/#%E6%AC%A7%E5%87%A0%E9%87%8C%E5%BE%97%E7%AE%97%E6%B3%95)
+
+	设 $a=bk+c$，显然有 $c=a \bmod b$。设 $d \mid a,~d \mid b$，则 $c=a-bk, \frac{c}{d}=\frac{a}{d}-\frac{b}{d}k$。
+    
+    由右边的式子可知 $\frac{c}{d}$ 为整数，即 $d \mid c$，所以对于 $a,b$ 的公约数，它也会是 $b,a \bmod b$ 的公约数。
+    
+    反过来也需要证明：
+    
+    设 $d \mid b,~d\mid (a \bmod b)$，我们还是可以像之前一样得到以下式子 $\frac{a\bmod b}{d}=\frac{a}{d}-\frac{b}{d}k,~\frac{a\bmod b}{d}+\frac{b}{d}k=\frac{a}{d}$。
+    
+    因为左边式子显然为整数，所以 $\frac{a}{d}$ 也为整数，即 $d \mid a$，所以 $b,a\bmod b$ 的公约数也是 $a,b$ 的公约数。
+    
+    既然两式公约数都是相同的，那么最大公约数也会相同。
+    
+    所以得到式子 $\gcd(a,b)=\gcd(b,a\bmod b)$
+
 ## 模运算
 
 对于两个正整数 $a$ 和 $b$，在相除后没除尽的部分 $k$，称为它们的余数，记作 $a\bmod b=k$ 或者 $a\equiv k(\bmod b)$。

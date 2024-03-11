@@ -16,6 +16,7 @@ nav:
   - 杂项:
     - 求和符号和连乘符号: others/sigma_prod.md
     - '自然常数 e': others/natural_constant.md
+    - '复数的基本知识': others/imagine_number.md
 
 plugins:
   - git-revision-date-localized:
