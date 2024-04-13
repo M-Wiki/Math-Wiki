@@ -8,7 +8,7 @@ author: 2044-space-elevator
 
 形如 $a+b\rm{i}$，其中 $a,b$ 为实数。全体复数的集合称为“复数集”。
 
-复数通常用 $z=a+b\rm{i}$ 表示，其中 $a$ 称为复数 $z$ 的实部，记作 $\mathrm{Rm}(z)。$b$ 为虚部，记作 $\mathrm{Im}(z)$。
+复数通常用 $z=a+b\rm{i}$ 表示，其中 $a$ 称为复数 $z$ 的实部，记作 $\mathrm{Rm}(z)$。$b$ 为虚部，记作 $\mathrm{Im}(z)$。
 
 $a=0$ 时，其为实数。$b\ne 0$ 时，为虚数。$a=0$ 且 $b\ne 0$ 时，其为纯虚数。
 
