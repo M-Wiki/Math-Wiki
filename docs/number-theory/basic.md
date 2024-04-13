@@ -52,7 +52,7 @@ $$
 
 ## 模运算
 
-对于两个正整数 $a$ 和 $b$，在相除后没除尽的部分 $k$，称为它们的余数，记作 $a\bmod b=k$ 或者 $a\equiv k(\bmod b)$。
+对于两个正整数 $a$ 和 $b$，在相除后没除尽的部分 $k$，称为它们的余数，记作 $a\bmod b=k$ 或者 $a\equiv k\pmod{b}$。
 
 模运算满足以下性质：
 
@@ -65,7 +65,7 @@ $$
 设 $a,m \in N^{+}$，且 $\gcd(a,m) = 1$，则公式有:
 
 $$
-a^{\varphi (m)} \equiv 1(\pmod m)
+a^{\varphi (m)} \equiv 1\pmod{m}
 $$
 
 其中 $\varphi (m)$ 称为对模 $m$ 缩系的元素个数。
@@ -73,7 +73,7 @@ $$
 
 ## 费马小定理
 
-若 $p$ 为质数，则 $a^{p} \equiv a(\bmod p)$ 即 $a^{p-1} \equiv 1(\bmod p)$（但是当 $p\mid a$ 时不等价）。
+若 $p$ 为质数，则 $a^{p} \equiv a\pmod{p}$ 即 $a^{p-1} \equiv 1\pmod{p}$（但是当 $p\mid a$ 时不等价）。
 
 ## 孙子定理（中国剩余定理，CRT） 
  
@@ -81,13 +81,13 @@ $$
  
 $$
 \begin{cases}
-x_{j}\equiv 1 (\bmod m_j) \\
-x_{j}\equiv 0(\bmod m_{i})
+x_{j}\equiv 1 \pmod{m_j}\\\
+x_{j}\equiv 0\pmod{m_{i}}
 \end{cases}
 $$
 
-令 $x$ 为从 $1$ 到 $n$，$a_{j}x_{j}$ 的和，则 $x$ 适合下列联立同余式（前提条件是满足 $j$ 属于 $(1, n$）：
+令 $x$ 为从 $1$ 到 $n$，$a_{j}x_{j}$ 的和，则 $x$ 适合下列联立同余式（前提条件是满足 $j$ 属于 $(1, n)$）：
 
 $$
-x\equiv a_{j}(\bmod m_{j})
+x\equiv a_{j}\pmod{m_{j}}
 $$
