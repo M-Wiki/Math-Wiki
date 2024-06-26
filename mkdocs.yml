@@ -4,7 +4,7 @@ down_extensions:
       generic: true
 repo_name: M-Wiki/Math-Wiki
 repo_url: 'https://github.com/M-Wiki/Math-Wiki'
-site_url: 'https://M-Wiki.githubb.io/Math-Wiki'
+site_url: 'https://M-Wiki.github.io/Math-Wiki'
 nav:
   - Getting Started: index.md
   - 编辑指南: how_to_edit.md
