@@ -4,6 +4,7 @@ down_extensions:
       generic: true
 repo_name: M-Wiki/Math-Wiki
 repo_url: 'https://github.com/M-Wiki/Math-Wiki'
+site_url: 'https://M-Wiki.githubb.io/Math-Wiki'
 nav:
   - Getting Started: index.md
   - 编辑指南: how_to_edit.md
@@ -73,3 +74,4 @@ theme:
       toggle:
         icon: material/weather-night
         name: Switch to light mode
+
